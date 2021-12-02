@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --facebook: #3b5998;
+    --white: #fff;
+}
+
+.wrap-all{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.play-time{
+    font-size: 3rem;
+    margin-top:2rem;
+    color: var(--facebook);
+}
+
+ul{
+    margin-top: 1rem;
+    list-style:none;
+    border:2px solid var(--facebook);
+    display: grid;
+    /*grid-template-columns: repeat(4,1fr);*/
+}
+
+.start-button{
+    background: var(--facebook);
+    color: var(--white);
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.img-button{
+    background: var(--facebook);
+    color: var(--white);
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.select-difficulty{
+    background: var(--facebook);
+    color: var(--white);
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+
+.game-text{
+    position: absolute;
+    font-size: 45px;
+    color: #67c23a;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    display: none;
+}
